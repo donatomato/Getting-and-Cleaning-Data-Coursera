@@ -45,6 +45,6 @@ data$activity <- factor(data$activity, labels = activity_labels$V2)
 #of each variable for each activity and each subject.
 meltedData <- melt(data,(id.vars=c("subject","activity")))
 tidyData <- dcast(meltedData, subject + activity ~ variable, mean)
-write.csv(tidyData, "tidy.csv", row.names=FALSE)
+write.csv(tidyData, "Tidy Data.csv", row.names=FALSE)
 
 
