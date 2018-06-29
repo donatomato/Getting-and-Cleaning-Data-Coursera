@@ -18,4 +18,4 @@
 *X, y, and subject data frames are merged together.
 *Descriptive names are the assigned the activity column.
 *The data is tidied and put in another data frame.
-*The tidy data is then written to a .csv file called "Tidy Data.csv"
+*The tidy data is then written to a file called "Tidy Data.txt"
